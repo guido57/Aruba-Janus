@@ -4,7 +4,7 @@ My public Janus gateway hosted on Aruba
 ### Create a new Aruba Virtual Private Server (optional)
 
 I chose the following (minimal and cheap) configuration. 
-<img src="https://github.com/guido57/Aruba-Janus/blob/master/screenshots/Ubuntu%20Server.JPG" width="300">
+<img src="https://github.com/guido57/Aruba-Janus/blob/master/screenshots/Ubuntu%20Server.JPG" width="400">
 
 ### Install the necessary packages
 
@@ -63,5 +63,7 @@ sudo systemctl enable janus
 ```
 
 ### Check if everything is working properly
+1. Browsing https://your_server_pi you should see:
+<img src="https://github.com/guido57/Aruba-Janus/blob/master/screenshots/janus%20main%20page.JPG" width="400px">
 
-<img src="https://github.com/guido57/Aruba-Janus/blob/master/screenshots/janus%20main%20page.JPG" width="200px">
+2. Navigating to the demos you should be able to check the different janus plugins in your environment:streaming, videoroom and so on 
