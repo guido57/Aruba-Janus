@@ -64,4 +64,4 @@ sudo systemctl enable janus
 
 ### Check if everything is working properly
 
-<img source="https://github.com/guido57/Aruba-Janus/blob/master/screenshots/janus%20main%20page.JPG" width="200px">
+<img src="https://github.com/guido57/Aruba-Janus/blob/master/screenshots/janus%20main%20page.JPG" width="200px">
