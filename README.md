@@ -5,7 +5,7 @@ My public Janus gateway hosted on Aruba
 
 I chose the following (minimal and cheap) configuration. 
 
-[![](https://github.com/guido57/Aruba-Janus/blob/master/Ubuntu%20Server.JPG)](https://github.com/guido57/Aruba-Janus/blob/master/Ubuntu%20Server.JPG)
+[![](https://github.com/guido57/Aruba-Janus/blob/master/screenshots/Ubuntu%20Server.JPG)](https://github.com/guido57/Aruba-Janus/blob/master/screenshots/Ubuntu%20Server.JPG)
 
 
 ### Install the necessary packages
@@ -59,4 +59,4 @@ sudo systemctl enable janus
 
 ### Check if everything is working properly
 
-[![](https://github.com/guido57/Aruba-Janus/blob/master/Ubuntu%20Server.JPG)](https://github.com/guido57/Aruba-Janus/blob/master/Ubuntu%20Server.JPG)
+[![](https://github.com/guido57/Aruba-Janus/blob/master/screenshots/Ubuntu%20Server.JPG)](https://github.com/guido57/Aruba-Janus/blob/master/screenshots/Ubuntu%20Server.JPG)
