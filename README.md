@@ -24,7 +24,7 @@ sudo apt install nginx
 sudo ufw allow 'Nginx Full'
 ```
 2. Check nginx browsing http://your_server_ip. You should see this: 
-[![](https://github.com/guido57/Aruba-Janus/blob/master/screenshots/nginx.jpg](https://github.com/guido57/Aruba-Janus/blob/master/screenshots/nginx.jpg)
+[![](https://github.com/guido57/Aruba-Janus/blob/master/screenshots/nginx.jpg)](https://github.com/guido57/Aruba-Janus/blob/master/screenshots/nginx.jpg)
 
 3. Modify Nginx configuration on /etc/nginx/sites-available/default to make it similar to [/etc/nginx/sites-available/default](https://github.com/guido57/Aruba-Janus/blob/master/etc/nginx/sites-available/default)
 
