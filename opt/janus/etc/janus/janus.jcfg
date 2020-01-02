@@ -254,7 +254,7 @@ nat: {
 	# You could use the following directive in systemd: 'After=network-online.target'
 	# https://www.freedesktop.org/software/systemd/man/systemd.unit.html#Before=
 	# ignore_unreachable_ice_server = true
-}
+} 
 
 # You can choose which of the available plugins should be
 # enabled or not. Use the 'disable' directive to prevent Janus from
