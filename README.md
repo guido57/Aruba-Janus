@@ -1,9 +1,15 @@
 # Aruba-Janus
 My public Janus gateway hosted on Aruba
 
-### Create a new Aruba Virtual Private Server
+### Create a new Aruba Virtual Private Server (optional)
 
-I created one with the following configuration. 
+If you don't hanve any, create one server on Aruba. I chose the following (minimal and cheap) configuration. 
 
 [![](https://github.com/guido57/Aruba-Janus/blob/master/Ubuntu%20Server.JPG)](https://github.com/guido57/Aruba-Janus/blob/master/Ubuntu%20Server.JPG)
 
+
+### Connect to your Aruba Server by SSH and install the necessary packages
+
+1. Janus Gateway 
+
+sudo snap install janus-gateway
