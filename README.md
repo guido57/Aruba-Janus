@@ -59,3 +59,4 @@ sudo systemctl enable janus
 
 ### Check if everything is working properly
 
+[![](https://github.com/guido57/IReye/blob/master/screenshots/IReye%20logic%20diagram.jpg)](https://github.com/guido57/IReye/blob/master/screenshots/IReye%20logic%20diagram.jpg)
