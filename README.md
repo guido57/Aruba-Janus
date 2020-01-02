@@ -19,9 +19,9 @@ sudo snap install janus-gateway
 
 2. Create a new systemd service file to start janus on boot: Copy janus.service to /etc/systemd/system/
 
-3. Start the gst2janus service
+3. Start the janus service
 ```
-sudo systemctl start gst2janus
+sudo systemctl start janus
 ```
 
 4. Check if janus service started correctly.
