@@ -8,23 +8,29 @@ If you don't hanve any, create one server on Aruba. I chose the following (minim
 [![](https://github.com/guido57/Aruba-Janus/blob/master/Ubuntu%20Server.JPG)](https://github.com/guido57/Aruba-Janus/blob/master/Ubuntu%20Server.JPG)
 
 
-### Connect to your Aruba Server by SSH and install the necessary packages
+### Install the necessary packages
 
 1. Janus Gateway 
 ```
 sudo snap install janus-gateway
 ```
-2. Nginx Web Server
+2. Nginx Web Server. For details see: [How To Install Nginx on Ubuntu 18.04 [Quickstart]](https://www.digitalocean.com/community/tutorials/how-to-install-nginx-on-ubuntu-18-04-quickstart)
+```
+sudo apt install nginx
+```
+### Configure Nginx
 
 
-2. Create a new systemd service file to start janus on boot: Copy janus.service to /etc/systemd/system/
+### Configure Janus
 
-3. Start the janus service
+1. Create a new systemd service file to start janus on boot: Copy janus.service to /etc/systemd/system/
+
+2. Start the janus service
 ```
 sudo systemctl start janus
 ```
 
-4. Check if janus service started correctly.
+3. Check if janus service started correctly.
 You should see something like this:
 ```
 ● janus.service - Janus WebRTC Server
@@ -47,5 +53,9 @@ Jan 02 12:18:28 ARU-254300 janus[1554]: [gstreamer-sample] New video stream! (ss
 Jan 02 12:18:28 ARU-254300 janus[1554]: [theta-rpi] New video stream! (ssrc=2703245438, index 0)
 ```
 5. Now enable janus service, so that it will start automatically on boot
+```
 sudo systemctl enable janus
+```
+
+### Check if everything is working properly
 
