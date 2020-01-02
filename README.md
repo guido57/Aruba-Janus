@@ -4,7 +4,7 @@ My public Janus gateway hosted on Aruba
 ### Create a new Aruba Virtual Private Server (optional)
 
 I chose the following (minimal and cheap) configuration. 
-<img src="https://github.com/guido57/Aruba-Janus/blob/master/screenshots/Ubuntu%20Server.JPG" width="48">
+<img src="https://github.com/guido57/Aruba-Janus/blob/master/screenshots/Ubuntu%20Server.JPG" width="200">
 
 ### Install the necessary packages
 
