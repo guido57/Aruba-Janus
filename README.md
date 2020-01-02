@@ -11,5 +11,9 @@ If you don't hanve any, create one server on Aruba. I chose the following (minim
 ### Connect to your Aruba Server by SSH and install the necessary packages
 
 1. Janus Gateway 
-
+```
 sudo snap install janus-gateway
+```
+
+2. Create a new systemd service file to start janus on boot: Copy janus.service to /etc/systemd/system/
+
